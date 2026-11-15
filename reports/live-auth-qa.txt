@@ -1,0 +1,78 @@
+KAMPIT — LIVE AUTH INTEGRATION FIXTURE QA
+Target: https://kampit-skills.vercel.app
+UTC: 2026-11-14T19:21:48.313Z
+Result: PASS
+Verified newly created integration fixture accounts: 2
+Safe failure code: none
+Last step: B final anonymous
+Precondition asserted externally by root: separate user-approved Confirm Email OFF; no confirmation mail is to be sent.
+Only product URLencoded signup/signin/signout forms with exact Origin were used; no Supabase admin API, env, keys or bypass.
+Emails at reserved example.com and random passwords were memory-only and are not included in this report.
+Cookie chunks/expiry/secure scope were handled in memory; no cookie/header/body/credential was printed.
+Stop on first failure,30s/request300s/overall, manual redirects, no POST retry.
+
+Passed checks:
+- A signup produced a verified empty integration account and cleared demo; secure HttpOnly auth cookies accepted
+- A onboarding and authored quiz persisted exactly10 points; duplicate was denied
+- B is a distinct integration account; other-account goals and private group stay protected
+- Signout cleared authentication; duplicate signup and wrong password did not authenticate
+- Invited signin preserved the safe local join query and persisted the same account; both see the2-member group
+- Both fixture sessions signed out; no account deletion or credential persistence performed
+
+Limits: these are integration fixtures, not real customers. No confirmation-email/SMTP delivery, password reset,
+real customer account, browser behavior or manual invite dialog is verified. No Prime/global entitlement action was used.
+No account/data cleanup was authorized or attempted. Created fixture accounts and their own game data may remain.
+A failed response does not prove that no upstream account or partial fixture record was created.
+Credentials were not saved for browser follow-up; a separate authorization is required for any private credential persistence.
+
+Sanitized requests:
+1: GET A anonymous -> 200; 653ms
+2: POST one fresh demo before signup -> 200; 807ms
+3: POST A signup -> 303; 898ms
+4: GET A verified account after signup -> 200; 833ms
+5: POST A onboarding -> 200; 719ms
+6: POST A quiz goal -> 200; 649ms
+7: GET A challenge -> 200; 403ms
+8: POST A server-scored quiz -> 200; 800ms
+9: POST A duplicate credit denial -> 409; 526ms
+10: POST A private group -> 200; 830ms
+11: POST B signup -> 303; 615ms
+12: GET B verified account after signup -> 200; 612ms
+13: POST B onboarding -> 200; 604ms
+14: GET B forbidden A goal read -> 404; 418ms
+15: POST B forbidden A goal write -> 404; 511ms
+16: GET B forbidden private group -> 403; 399ms
+17: POST fixture signout -> 303; 257ms
+18: GET B anonymous after signout -> 200; 248ms
+19: POST A signup -> 303; 263ms
+20: GET duplicate signup stays anonymous -> 200; 258ms
+21: POST B signin -> 303; 318ms
+22: GET invalid password stays anonymous -> 200; 259ms
+23: POST B signin -> 303; 342ms
+24: GET B verified after invited signin -> 200; 510ms
+25: POST B joins private fixture group -> 200; 688ms
+26: GET A shared leaderboard -> 200; 735ms
+27: GET B shared leaderboard -> 200; 492ms
+28: POST fixture signout -> 303; 264ms
+29: POST fixture signout -> 303; 371ms
+30: GET A final anonymous -> 200; 285ms
+31: GET B final anonymous -> 200; 280ms
+
+FINAL LIVE AUTH OBSERVATION
+PASS:31 product HTTP requests completed, two distinct newly registered integration fixture accounts.
+Both signup flows produced immediate authoritative account sessions; A's prior demo cookie was removed.
+A saved onboarding and a server-scored10-point quiz; duplicate409 and B's private-goal read/write404 were observed.
+Both authenticated users saw the same private two-member group and A's persisted score.
+Signout returned anonymous; duplicate signup and incorrect password stayed anonymous; valid invited signin
+preserved the local join return target and the original authenticated B profile. Both final sessions signed out.
+No POST retry, deletion, cleanup, credential file, admin API, env/key access, Prime action or confirmation-message endpoint was used.
+
+Authorization/context supplied by coordinator before this run:
+User explicitly selected email+password without a confirmation email. Root verified persisted ConfirmEmail0,
+AllowSignups1 and AnonymousSignins0. Deployment reference:https://kampit-skills.vercel.app.
+Requests targeted only the canonical public alias. This reviewer did not alter or independently inspect admin settings.
+
+Meaning of verification:
+PASS is live Supabase Auth network integration through the product using synthetic reserved-domain QA fixtures.
+It is not a real-customer test. Email address OWNERSHIP WAS NOT VERIFIED: Confirm Email is intentionally OFF.
+SMTP/confirmation delivery and browser behavior remainNOT_RUN. Fixture accounts/data remain; no cleanup is claimed.

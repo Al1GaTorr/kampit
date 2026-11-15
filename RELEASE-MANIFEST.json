@@ -1,0 +1,234 @@
+{
+  "publicUrl": "https://kampit-skills.vercel.app",
+  "sourceRoot": "./",
+  "publicSourceStaging": true,
+  "validatedInputArchiveSha256": "31608a8789787875d70c2cb8319c38ef40355c18420e43718dd5faf2cb78704e",
+  "inputArtifactSourceFingerprintSha256": "2c437b76128f1afcd7c3971fd0e721baa7e7c8da6cf0b083ddd485ff65342b07",
+  "upstreamProvenanceHashesVerifiedInArtifact": 12,
+  "documentationMetadataSanitized": [
+    "README.md",
+    "reports/Kampit-release-status.txt",
+    "reports/live-vercel-qa.txt",
+    "reports/live-auth-qa.txt",
+    "reports/public-ui-qa.txt"
+  ],
+  "manifestExcludesItself": true,
+  "files": {
+    ".env.example": {
+      "sha256": "80f69f8e25a288046b5bd6763f90c3568d2eb604df84db8383cd6dfd7e462e66",
+      "bytes": 549
+    },
+    ".gitignore": {
+      "sha256": "5a85af437bb57515d2c6ffd1d9b3ba446971f0a9daeac489d313c548ff28a34c",
+      "bytes": 214
+    },
+    ".vercelignore": {
+      "sha256": "b34c6af0a017dcf1264ee9723fcd813d3af7d5cd32f0533443b0dc808fdb5323",
+      "bytes": 148
+    },
+    "README.md": {
+      "sha256": "e0bc2eacb75e2eba5d533101d0b4652e519796ab0f503d3ca76b0c273a9cab12",
+      "bytes": 14820
+    },
+    "SUBMISSION.md": {
+      "sha256": "3a9be1c39a8cfc09bca3b996a15163f5c5ad95c52343d681ec37d007a2b6bb18",
+      "bytes": 1193
+    },
+    "app/KampitApp.tsx": {
+      "sha256": "004f47c6c0574fee9d3bf36210e3635148e3723a2c28525a32457672fff75ffb",
+      "bytes": 71271
+    },
+    "app/api/auth/signin/route.ts": {
+      "sha256": "4782ca4d8043c61620053b9cbca99a26e15972e659a6fd2624cda4f8f1ce153b",
+      "bytes": 157
+    },
+    "app/api/auth/signout/route.ts": {
+      "sha256": "f5a18b64ae0af38ef5cdbff26650fc7b063fd8f21f2834c1c0563493859be613",
+      "bytes": 158
+    },
+    "app/api/auth/signup/route.ts": {
+      "sha256": "418bbe6ba4b862451b50861a2155c094a5459559d834aa8a01baec188e564974",
+      "bytes": 157
+    },
+    "app/api/kampit/route.ts": {
+      "sha256": "c6a759b1bfb339ab9c9c48c0ad68f7ee92b6d5ef23f3a2a068d05615b7a5bccf",
+      "bytes": 163
+    },
+    "app/auth/callback/route.ts": {
+      "sha256": "5f760cf56b255e35cbde6d63717cc03bf250e33fcfff35d7a555a1f9027a01ca",
+      "bytes": 1310
+    },
+    "app/globals.css": {
+      "sha256": "f87f05829972899d8738f11d3dcc7b396121f31b802d5630b4ec1107f42808c4",
+      "bytes": 107255
+    },
+    "app/layout.tsx": {
+      "sha256": "74fdc5b8f6dc000006699061c49d9429df8d186aef099eec30102d14c9fb6b39",
+      "bytes": 486
+    },
+    "app/login/page.tsx": {
+      "sha256": "1afe3634b669663bfafa83b0892759f952932b9bf9f55d13b0f0f5fad013e620",
+      "bytes": 2076
+    },
+    "app/logout/page.tsx": {
+      "sha256": "b97312d1335c3075ac72307346cc6220e5dbde75694312b8f5df6af585744b8e",
+      "bytes": 647
+    },
+    "app/page.tsx": {
+      "sha256": "69c5c8770cd3320de00ee528be2d879cf779afa0ff55a6c979b72cc3e369ef4e",
+      "bytes": 134
+    },
+    "core-source.json": {
+      "sha256": "a5e61d8149838088990f5fa1d5c0990f9935f98ca6217b3587a25b5b787ac4b8",
+      "bytes": 1206
+    },
+    "lib/auth-actions.ts": {
+      "sha256": "1f8b2e54275f45e49cb31e82e110bb05d9af08785348f384f4b80527c88fb013",
+      "bytes": 2988
+    },
+    "lib/auth-security.ts": {
+      "sha256": "ef0b51438d5870231b7feb6fa598c3b3ef4a9387141074664305f6aaf4777033",
+      "bytes": 959
+    },
+    "lib/auth.ts": {
+      "sha256": "bf7ad27b3bef5dd1e5b874d2d5454fde69e3fbaf6f6a8b7e608bedb057192cbc",
+      "bytes": 1541
+    },
+    "lib/catalog.ts": {
+      "sha256": "2abc713a660926f886fe6da03b1fa11358e37914a488e0bf146c9d6eb324aae3",
+      "bytes": 23558
+    },
+    "lib/database.ts": {
+      "sha256": "18e2f3bde20eb1c277ce188503704f253ed9600c74093ad05ec117f01a4299e1",
+      "bytes": 1296
+    },
+    "lib/deployment-env.mjs": {
+      "sha256": "01c624a0fca3bcb1d2fcb74991827eefd0308fccd0e58464ef469b44c8a0abe5",
+      "bytes": 2009
+    },
+    "lib/identity.ts": {
+      "sha256": "41e41c3b7a2fc7ccccdf945fb65c83585964c44f307b5a453b384d8e723b8421",
+      "bytes": 493
+    },
+    "lib/pg-adapter.ts": {
+      "sha256": "2e5c1faccd4d25847e5be19ac2aaf045236649ab78b016ad45a8957e638967e8",
+      "bytes": 5280
+    },
+    "lib/public-origin.ts": {
+      "sha256": "8e8c1ecb4cb77747c3465ad7f386d5631cbd20c1a5bec1b5b5a766728c45ba13",
+      "bytes": 1862
+    },
+    "lib/server.ts": {
+      "sha256": "ce185ee34ff4d4a29402bba4a53afcab8095032f634243b214abbcddb936a504",
+      "bytes": 46656
+    },
+    "lib/types.ts": {
+      "sha256": "086391092cc65273e55600a07cecd33b9af1a4dd08bc902de4e47cc07128876d",
+      "bytes": 2559
+    },
+    "next.config.ts": {
+      "sha256": "f7c245dcf7af291cb59f013cb06f1e57b47240950b18020b3f95c8144cdc4bbd",
+      "bytes": 161
+    },
+    "package-lock.json": {
+      "sha256": "1a6bf7e0a8007855fafa21a6d71a8c03c80bb734ce8fe2f8130559dbfaffad66",
+      "bytes": 79060
+    },
+    "package.json": {
+      "sha256": "4d0eb8c9f01ad920110c03c9e0cf0e21fed7e32b3690c49b203a42782118cf0f",
+      "bytes": 1274
+    },
+    "postcss.config.mjs": {
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "bytes": 94
+    },
+    "public/favicon.svg": {
+      "sha256": "95abe37cb85df4b48d7495a7c850e15b818dfb1607817b873b2941afd0ca5555",
+      "bytes": 192
+    },
+    "reports/Kampit-release-status.txt": {
+      "sha256": "6b93a87877e6e9644e764ef5d9f59289249a2614a1b6d8d8e40360151913c5d5",
+      "bytes": 4275
+    },
+    "reports/live-auth-qa.txt": {
+      "sha256": "10fbb443f0359e56c4798998017481b66b8149522f5e8e396f88721da2d159a3",
+      "bytes": 4813
+    },
+    "reports/live-vercel-qa.txt": {
+      "sha256": "6923f4de2d183eece22fd91b056bad4d78502de4aee240feced4cc19c43df897",
+      "bytes": 5333
+    },
+    "reports/public-ui-qa.txt": {
+      "sha256": "93e9a724f79a6fb1dadd304d8d9ae56c7b746f44098e84ea402058736e950242",
+      "bytes": 2133
+    },
+    "scripts/check-concurrency.mjs": {
+      "sha256": "339d09a7c1a6acf6024a6ac62b03531a85346d48b4e359439cca3c2c5676cf60",
+      "bytes": 2635
+    },
+    "scripts/export-sqlite.py": {
+      "sha256": "5f17d74781f2833a8a6033fa71cc7d51bb3fc7eb1ae08fae9486052b44a77906",
+      "bytes": 1146
+    },
+    "scripts/import-legacy.mjs": {
+      "sha256": "e0cb576baafb04a979871ff4511753c92116906830b29da153e908b72781313f",
+      "bytes": 2847
+    },
+    "scripts/link-identity.mjs": {
+      "sha256": "fc9f16a3466c4602ada3d158d765a7aba62f864ced00dffc8ba0af8325585d0f",
+      "bytes": 1757
+    },
+    "scripts/migrate.mjs": {
+      "sha256": "ce33c3ba7f6aea258f30b6788bd48ae35fd0615f3ca2687fa58bc8873ee0dd2a",
+      "bytes": 818
+    },
+    "scripts/sync-core.mjs": {
+      "sha256": "bbc59db7f8cd8c0118ffe0147d89e85bf9edc813acb0ec6a6c40257065656526",
+      "bytes": 4199
+    },
+    "sql/001-schema.sql": {
+      "sha256": "09aaa231982fb2635e53558d7ca6b69a7a317f9cd91c4b26caf4faec37025c5e",
+      "bytes": 5479
+    },
+    "sql/002-scoring-security.sql": {
+      "sha256": "d0d1c12770a75d960089a21930065ad109d7d0b0e997590b2e7b3fee159a8179",
+      "bytes": 2793
+    },
+    "tests/auth-actions-fixture.ts": {
+      "sha256": "0243ea90922962c0e41aa878c1f76b3e13c69a843cd9b062ac5954b746f905ca",
+      "bytes": 1530
+    },
+    "tests/auth-actions.test.ts": {
+      "sha256": "ecffc3009a67cb39f42c2eff4c92a5490a414dd77687bf53c2abfdbdc9d355ed",
+      "bytes": 5573
+    },
+    "tests/postgres.test.ts": {
+      "sha256": "8e11cbe50ac08e916d0d8b690256f72f8aa2dbb79ad745c5bf926b488cfe49f4",
+      "bytes": 21322
+    },
+    "tests/production-http.mjs": {
+      "sha256": "a599a14cadde47b3979a6834e817b06a4902fb28ce7cbd0c07873c2ceea345d1",
+      "bytes": 4461
+    },
+    "tests/runtime-fixture.ts": {
+      "sha256": "dc25fa2bf8f3a43fffb484001e9e87d446df6b7e1ac03bcdb9a7a57e87dfe701",
+      "bytes": 577
+    },
+    "tsconfig.json": {
+      "sha256": "5a0229d00c3111ba558a4faaae27b4ff714cb77610c1375b50cfba7b4291138a",
+      "bytes": 674
+    },
+    "vendor/shadcn-tailwind-4.13.0.LICENSE.md": {
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "bytes": 1063
+    },
+    "vendor/shadcn-tailwind-4.13.0.css": {
+      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a",
+      "bytes": 16041
+    },
+    "vercel.json": {
+      "sha256": "c3443d2d5d7f268c75dc19d370a2e58ac1dcd8e6d02b51f5b25557ca53cf6c13",
+      "bytes": 86
+    }
+  }
+}

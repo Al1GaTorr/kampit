@@ -1,0 +1,40 @@
+KAMPIT — СТАТУС ПУБЛИЧНОГО ВЫПУСКА
+15 ноября 2026 года, Asia/Almaty.
+
+Публичное приложение доступно: https://kampit-skills.vercel.app
+Хостинг: Vercel + Supabase, free plan. Последний deployment: https://kampit-skills.vercel.app
+Исходники в архиве соответствуют frozen варианту после JSONB codec fix, размещения iad1 и signup fix.
+
+Проверено на публичном приложении:
+PASS — 34 настоящих HTTP-запроса демо: сохранение, задания, история, расписание уровней, ownership,
+друзья, Prime gate, параллельные начисления с cap100/завершением за0очков и полный личный план.
+PASS — 31 настоящий Auth HTTP-запрос, два синтетических QA integration-аккаунта:
+регистрация с немедленной сессией, удаление demo cookie, onboarding, серверный quiz10очков,
+чужие записи404, приватная группа, invite redirect, правильный/неправильный вход и выход.
+Это интеграционные фикстуры, не клиенты и не пользовательские метрики. Их аккаунты не удалялись.
+PASS — публичный браузер с обычным доступом и изолированным демо: задания, reload,
+план3/3 при65/100, текущий Standard/следующий Stretch, собственная история/исходный prompt и mobile390x844.
+Ссылки на результаты: reports/live-vercel-qa.txt, reports/live-auth-qa.txt, reports/public-ui-qa.txt.
+
+Регистрация: email + пароль без письма, по явному выбору пользователя.
+Confirm Email выключен; ВЛАДЕНИЕ EMAIL НЕ ПРОВЕРЕНО.
+Auth HTTP проверял настоящие сетевые сессии продукта на QA-аккаунтах; browser-login не проверялся.
+SMTP/доставка подтверждения, password reset и браузерная авторизация — NOT_RUN.
+
+Дополнительные локальные проверки: 21 PostgreSQL workflow с настоящими postgres.js codecs,
+12 Next production HTTP, 8 signup-handler fixture groups, TypeScript/build — PASS.
+При упаковке эти проверки не повторялись; новых install/build/server действий не было.
+
+Границы продукта:
+Prime — явно обозначенный no-charge demo access, настоящего billing/списания нет.
+Для writing проверяются длина/базовые повторы; качество навыка не подтверждено.
+Старые данные Sites не импортировались; прежний Sites сохранён приватным.
+Исторический приватный Sites v4: commit7cfde90e455f6bbcff89fc225f090ddae95e8cd0.
+Реальная миграция старых данных и отдельная multi-connection PostgreSQL-проверка — NOT_RUN.
+
+kampit-vercel-ready.zip — самостоятельный source-пакет с корнем kampit-vercel/.
+Включён новый README: координатор обновил описание опубликованного релиза и границы проверок после runtime deployment.
+Это documentation-only изменение; runtime не менялся, новая сборка/публикация не требовалась.
+Упаковщик README не редактировал; lockfile сохранён. Включены SQL, tests, .vercelignore и пустой .env.example.
+Не включены реальные.env/OIDC, .vercel, .git, node_modules, .next, exports, DB/SQLite, runtime temps и next-env.d.ts.
+Реальные env/credential файлы не читались. CRC, manifest, stable bytes, 12 upstream hashes и secret-pattern scan — PASS.

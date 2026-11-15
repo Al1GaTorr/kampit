@@ -1,0 +1,14 @@
+.env*
+!.env.example
+.vercel/
+.git/
+node_modules/
+.next/
+exports/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+*.sqlite*
+*.db
+.DS_Store
+tests/.runtime-server.ts

@@ -1,0 +1,18 @@
+{
+  "source": "../../kampit",
+  "contract": 3,
+  "files": {
+    "app/KampitApp.tsx": "5b1da7f8c89846fdb33534aa90a383fb1dc6fde47a1e97b3871ad8a7c49680e1",
+    "app/globals.css": "f87f05829972899d8738f11d3dcc7b396121f31b802d5630b4ec1107f42808c4",
+    "app/page.tsx": "69c5c8770cd3320de00ee528be2d879cf779afa0ff55a6c979b72cc3e369ef4e",
+    "app/layout.tsx": "74fdc5b8f6dc000006699061c49d9429df8d186aef099eec30102d14c9fb6b39",
+    "app/api/kampit/route.ts": "c6a759b1bfb339ab9c9c48c0ad68f7ee92b6d5ef23f3a2a068d05615b7a5bccf",
+    "lib/catalog.ts": "2abc713a660926f886fe6da03b1fa11358e37914a488e0bf146c9d6eb324aae3",
+    "lib/types.ts": "086391092cc65273e55600a07cecd33b9af1a4dd08bc902de4e47cc07128876d",
+    "lib/server.ts": "9d38f694258cfeb1b68b2953c4c407bcc7aaa4431d8ede29cce1bebebb7a1765",
+    "public/favicon.svg": "95abe37cb85df4b48d7495a7c850e15b818dfb1607817b873b2941afd0ca5555",
+    "vendor/shadcn-tailwind-4.13.0.css": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a",
+    "vendor/shadcn-tailwind-4.13.0.LICENSE.md": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+    "postcss.config.mjs": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+  }
+}

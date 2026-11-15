@@ -1,0 +1,28 @@
+KAMPIT — PUBLIC BROWSER ACCEPTANCE
+Observed: 2026-11-15 Asia/Almaty (2026-11-14 UTC)
+Target: https://kampit-skills.vercel.app
+Current deployment: https://kampit-skills.vercel.app
+Method: independent in-app browser, ordinary public access, isolated explicitly fictional demo.
+No hosting bypass, account cookies, secret keys or admin API were used for product UI.
+
+PASS: Created/opened an isolated demo, completed actual Coding and Spanish quiz tasks and submitted
+132 words explicitly described as fictional test writing. Reload retained all three completions.
+Daily plan showed 3/3 goals complete, 'You’re done for today.', and 65/100 ranked points;
+100 is clearly labeled a ranking limit rather than a daily target.
+PASS: Coding remained Standard for the current week while a saved Stretch change was scheduled
+for Mon, Nov 16, 10:00 AM GMT+5. This is a UI observation of scheduling, not real-time week rollover.
+PASS: Your week opened the fictional prior completed Nov 2–Nov 8 season: 320 points, 5 active days,
+15 completions. It honestly stated no earlier comparison and fewer than 10 qualifying participants.
+Expanded own writing record showed the stored task prompt and explicitly fictional saved submission.
+PASS: At a temporary 390x844 viewport, navigation opened and selected Overview, the completed-plan
+card remained usable and legible with 3/3 and 65/100 visible. Temporary viewport was reset.
+
+Evidence in the release evidence folder (screenshots not included here):
+- kampit-public-plan-complete.jpg: desktop public plan after reload.
+- kampit-public-history.jpg: public completed-week detail and expanded fictional own writing.
+- kampit-public-mobile.jpg: public mobile completed plan.
+
+Scope/limits: fictional demo data only; this browser run is not real-customer or browser-login proof.
+The separate work/live-auth-qa.txt verifies actual account sessions via 31 product HTTP requests.
+No email ownership, SMTP delivery, password reset, real-time week rollover or skill quality is claimed.
+An initial radio automation targeting issue was resolved using the visible option label; no product defect was inferred.
