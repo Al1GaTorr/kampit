@@ -27,12 +27,12 @@
       "bytes": 148
     },
     "README.md": {
-      "sha256": "e0bc2eacb75e2eba5d533101d0b4652e519796ab0f503d3ca76b0c273a9cab12",
-      "bytes": 14820
+      "sha256": "61088fce26f2181912e1f5b8ecadc5b4c03b8f4d56cd0e4c491cda1961e4a99f",
+      "bytes": 15154
     },
     "SUBMISSION.md": {
-      "sha256": "3a9be1c39a8cfc09bca3b996a15163f5c5ad95c52343d681ec37d007a2b6bb18",
-      "bytes": 1193
+      "sha256": "7da5f590a98a7c3749e8310d8adb8ad1bccdd8f7adb01bfc176190945ab38a83",
+      "bytes": 1304
     },
     "app/KampitApp.tsx": {
       "sha256": "004f47c6c0574fee9d3bf36210e3635148e3723a2c28525a32457672fff75ffb",
@@ -81,6 +81,26 @@
     "core-source.json": {
       "sha256": "a5e61d8149838088990f5fa1d5c0990f9935f98ca6217b3587a25b5b787ac4b8",
       "bytes": 1206
+    },
+    "docs/Kampit_Alias_Business_Cup.pdf": {
+      "sha256": "729970125ff92a07020a6655334fa419923e1e673f4a741ff3395f14660e334f",
+      "bytes": 1161485
+    },
+    "docs/business-sources.md": {
+      "sha256": "fb3dd0be8042ba9dd37eeb80efff1233b4e8bcbe3309354ad9b178f77c0fef62",
+      "bytes": 5785
+    },
+    "docs/demo-script.txt": {
+      "sha256": "bc6a8ae6df7b48c81be294bd34fc9ec53c952d827c073a078c55d5229348068e",
+      "bytes": 5389
+    },
+    "docs/jury-qa.md": {
+      "sha256": "a1f58cd62930234b2b084415f7a50a8b07f292fb912e982e9fd6a1ee6c7bb5f6",
+      "bytes": 7005
+    },
+    "docs/pitch.md": {
+      "sha256": "67d1a99d45151f419d518929c1b8b098ba32df1c5bd4bbd741ab719067d20bb3",
+      "bytes": 7093
     },
     "lib/auth-actions.ts": {
       "sha256": "1f8b2e54275f45e49cb31e82e110bb05d9af08785348f384f4b80527c88fb013",
@@ -230,5 +250,15 @@
       "sha256": "c3443d2d5d7f268c75dc19d370a2e58ac1dcd8e6d02b51f5b25557ca53cf6c13",
       "bytes": 86
     }
-  }
+  },
+  "team": {
+    "name": "Alias",
+    "captain": "Ali Qazybai",
+    "members": [
+      "Ali Qazybai",
+      "Dias Saqyp"
+    ]
+  },
+  "repositoryUrl": "https://github.com/Al1GaTorr/kampit",
+  "submissionPresentation": "docs/Kampit_Alias_Business_Cup.pdf"
 }

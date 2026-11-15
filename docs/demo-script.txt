@@ -1,0 +1,48 @@
+KAMPIT PUBLIC CORE V3 — 60–90-SECOND PRODUCT WALKTHROUGH
+
+Primary URL: https://kampit-skills.vercel.app
+Status: deployed native Next.js + Supabase PostgreSQL/Auth. Current checked deployment is c7a4y1cpe. Ordinary public browser acceptance passed for the fictional demo, including tasks, reload, completed plan, next-week level, own history and mobile navigation.
+
+Audience: US adults 25–45 who start a skill and then lose consistency. This remains a target hypothesis, with no claimed paid traction or retention study. Skills is the coordinator's hackathon scope choice.
+
+Before presenting
+- Open the primary public URL and start a fresh isolated interactive demo. Explain the fictional participants and previous-week sample history.
+- The first demo participant already has Standard Spanish, JavaScript and Writing goals. Open an existing uncompleted quiz; do not try to add Spanish/JavaScript again. To demonstrate adding a new goal, use an available template such as critical-thinking.
+- Use the same prepared participant and a known current quiz for the walkthrough. Do not fabricate answers, scores, promotions or history.
+- For a quick final-plan moment, complete two of the three demo goals before the talk using clearly fictional own practice/writing, then finish the remaining quiz live. Public acceptance already observed all 3 complete at 65/100 after reload; that is an example of plan completion below the cap, not a promised universal score.
+- For the account path, open https://kampit-skills.vercel.app/login. Real friends register with their own email/password and use the invite code. The selected registration mode requires no confirmation letter; email ownership is not verified. Real accounts start empty, so use the labeled fictional demo to show a prior week's saved history immediately.
+
+0–10 seconds — Show the daily plan
+Open the public dashboard and its demo label.
+“Kampit helps you keep showing up for a skill. This ring tracks your personal daily plan. Ranked points have a separate daily cap.”
+Point to completed goals / active goals and the separate points/100 panel. Do not say that reaching 100 points completes every planned task.
+
+10–30 seconds — Complete actual practice
+Open an existing uncompleted Spanish or JavaScript goal. Point to Standard, quiz checking and the fixed points. Submit the prepared correct answer; if there is time, show a wrong attempt first and its zero credit.
+“The server checks these questions and saves the result. When a cap has already been reached, the task still counts toward your plan and the feedback honestly shows zero new ranked points.”
+Show the updated plan and score; refresh once to demonstrate persisted state.
+
+30–45 seconds — Plan next week's level
+Open the goal's next-week level action. Choose a different allowed level and save.
+“My current week stays consistent. I can schedule next week's commitment now.”
+Show the pending level and exact effective timestamp. Choosing the current level can cancel the pending change. Do not claim the current task's difficulty or old results have changed.
+
+45–65 seconds — Show a real saved week
+Open Your week, then the fictional completed previous week in the demo. Point to score, active days, comparison and the honest rank reason. Expand the user's own practice or saved writing.
+“I can review my own work and what happened last week. A real account only shows weeks that actually exist; personal practice also has history without a competition.”
+Identify demo text/history as fictional. Missing legacy position or prompt stays unavailable. Do not present the rank snapshot as a live promotion; the small demo cohort holds its rank.
+
+65–80 seconds — Show the shared leaderboard
+Open the private friends board. Point to its exact localized end time and rank rules. If equal scores are visible, explain shared places such as 1, 2, 2, 4.
+“Equal results share a place. A tie group crossing a promotion or demotion boundary stays together.”
+Switch the fictional participant only if there is time, keeping personal records separate from shared standings.
+
+80–90 seconds — Close on the paid hypothesis
+Briefly show the global competition preview/Prime gate.
+“Friends are free. Monthly global access is our business hypothesis. The public app is live; Prime here is no-charge demo access and does not create a payment or subscription.”
+
+60-second version: 0–8 plan and cap; 8–23 one prepared quiz completion; 23–35 scheduled next-week level; 35–52 one saved history record; 52–60 shared board and closing sentence. Omit the wrong answer, participant switch and separate Prime screen. Keep the no-charge billing status clear if Prime is mentioned.
+
+If networking fails during a presentation, use a coordinator-verified local preview or captured evidence and identify that fallback. Current live HTTP Auth has been checked with two synthetic QA accounts through actual Supabase, but browser signup/login and customer email ownership have not been verified. Do not label the fictional demo as two real customers or turn its prior-week history into demand/retention evidence.
+
+The retained https://kampit-skills.ripplinglarch2.chatgpt.site is a separate owner-private Sites version, with its own old data and ChatGPT access. It is not the primary public demo URL, and its data was not imported into the new app.

@@ -1,5 +1,9 @@
 # Kampit — Skills track
 
+**Team Alias:** Ali Qazybai (captain) and Dias Saqyp.
+
+Source repository: https://github.com/Al1GaTorr/kampit
+
 Public product: **https://kampit-skills.vercel.app**
 
 Kampit turns a personal skills plan into daily practice, a streak and weekly competitions. Try the explicitly labelled fictional demo, complete a quiz, and inspect your saved weekly history. The daily plan is separate from the 100-point ranking cap.

@@ -2,6 +2,16 @@
 
 This is a separate, runnable Next.js application using the current Kampit v3 UI and core logic. Its production database is PostgreSQL on Supabase. It does not use Cloudflare Workers, D1, Vinext or ChatGPT authentication. The existing native deployment is unchanged.
 
+## Business Cup submission — Team Alias
+
+Ali Qazybai (captain) and Dias Saqyp.
+
+- [Public product](https://kampit-skills.vercel.app)
+- [PDF presentation](docs/Kampit_Alias_Business_Cup.pdf)
+- [Pitch and demo](docs/pitch.md)
+- [Primary sources and business assumptions](docs/business-sources.md)
+- [Jury questions](docs/jury-qa.md)
+
 ## Published release — November 15, 2026 (Asia/Almaty)
 
 The public application is available at **https://kampit-skills.vercel.app**, on Vercel Hobby and Supabase Free in `iad1`. The current deployment is `https://kampit-skills.vercel.app`. The application uses the native managed database environment and server-verified Supabase Auth sessions.
